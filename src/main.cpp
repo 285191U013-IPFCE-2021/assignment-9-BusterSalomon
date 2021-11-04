@@ -44,7 +44,7 @@ int main (int argc, char **argv) {
     printf ("\n");
 
     // ------ TEST DFT
-    printf ("Testing DFT - print should equal: 4 7 28 77 86 3 9 98\n");
+    printf ("Testing DFT - print should equal: 4 7 28 77 23 86 3 9 98\n");
      node *root = make_node (4,
 			  make_node (7,
 				     make_node (28,
