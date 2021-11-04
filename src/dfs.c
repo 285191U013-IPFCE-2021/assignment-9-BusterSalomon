@@ -7,40 +7,6 @@
 #include <stdbool.h>		/* bool, true, false */
 #include "..\include\dfs.h"
 
-/*
-PROBLEM SOLVING STEPS
-
-1. Push the root to the stack
-
-  stack:
-  _______
-  root
-  _______
-
-2. Print the num of the root
-3. Set visited to true
-
-4. Check if the root have any left and right childs
-  * if a left child exist, then push it to the stack
-  * if both exist, then first push the right one
-
-  stack:
-
-  ______
-  left_1
-  ______
-  right_1
-  ______
-  root
-  ______
-
-5. Print the num of the first elem on the stack
-6. If the child doesnt have any childs, then pop it and visit the old child
-
-
-*/
-
-
 
 void DFT (node * root) {
 
