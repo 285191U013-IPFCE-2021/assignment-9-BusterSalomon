@@ -26,12 +26,12 @@ typedef struct stack
 } stack;
 
 
-stack *push (stack * topp, node * node);
+void push (stack ** topp, node * node);
 
 bool isEmpty (stack * topp);
 
 node *top (stack * topp);
 
-stack *pop (stack * topp);
+node *pop (stack ** topp);
 
 void print_stack (stack * topp);
